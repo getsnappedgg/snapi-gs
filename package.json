@@ -1,0 +1,36 @@
+{
+	"name": "snapi",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"prisma-format": "npx prisma format",
+		"migrate": "npm run prisma-format & npx prisma migrate dev --name",
+		"prisma": "npx prisma generate & npm run prisma-format"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/getsnappedgg/snapi.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/getsnappedgg/snapi/issues"
+	},
+	"homepage": "https://github.com/getsnappedgg/snapi#readme",
+	"devDependencies": {
+		"@types/node": "^18.11.11",
+		"prisma": "^4.7.1",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.9.3"
+	},
+	"dependencies": {
+		"@aws-sdk/client-s3": "^3.231.0",
+		"@prisma/client": "^4.7.1",
+		"express": "^4.18.2",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.20"
+	}
+}
