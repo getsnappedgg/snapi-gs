@@ -86,10 +86,6 @@ const getMe = asyncHandler(async (req: any, res: any) => {
 	res.status(200).json(req.user);
 });
 
-const getDecks = asyncHandler(async (req: any, res: any) => {
-	res.send(200);
-});
-
 const generateToken = (id: number) => {
 	return jwt.sign({ id }, process.env.JWT_SECRET, {
 		expiresIn: "30d",
@@ -100,6 +96,5 @@ module.exports = {
 	registerUser,
 	loginUser,
 	getMe,
-	deleteUser,
-	getDecks,
+	deleteUser
 };
