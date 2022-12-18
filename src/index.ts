@@ -5,7 +5,7 @@ import { router } from "./routes";
 
 export const prisma = new PrismaClient();
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT;
 app.use(morgan("dev"));
 app.use(express.json());
 app.use("/api", router);

@@ -2,12 +2,15 @@
 	"name": "snapi",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.ts",
+	"main": "src/index.ts",
+	"prisma": {
+		"schema": "src/prisma/schema.prisma"
+	},
 	"scripts": {
 		"prisma-format": "npx prisma format",
 		"migrate": "npm run prisma-format & npx prisma migrate dev --name",
 		"prisma": "npx prisma generate & npm run prisma-format",
-		"dev:server": "nodemon --watch './**/*.ts' --exec 'ts-node' index.ts"
+		"dev:server": "nodemon --watch './**/*.ts' --exec 'ts-node' src/index.ts"
 	},
 	"repository": {
 		"type": "git",
