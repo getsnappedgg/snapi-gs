@@ -19,7 +19,7 @@ model Card {
   pool        Int
   flavorText  String
   keyword     String
-
+  
   @@index([pool, cost, power])
 }
 

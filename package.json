@@ -2,12 +2,12 @@
 	"name": "snapi",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
-	"type": "module",
+	"main": "index.ts",
 	"scripts": {
 		"prisma-format": "npx prisma format",
 		"migrate": "npm run prisma-format & npx prisma migrate dev --name",
-		"prisma": "npx prisma generate & npm run prisma-format"
+		"prisma": "npx prisma generate & npm run prisma-format",
+		"dev:server": "nodemon --watch './**/*.ts' --exec 'ts-node' index.ts"
 	},
 	"repository": {
 		"type": "git",
@@ -21,16 +21,18 @@
 	},
 	"homepage": "https://github.com/getsnappedgg/snapi#readme",
 	"devDependencies": {
+		"@types/express": "^4.17.15",
+		"@types/morgan": "^1.9.3",
 		"@types/node": "^18.11.11",
 		"prisma": "^4.7.1",
 		"ts-node": "^10.9.1",
+		"nodemon": "^2.0.20",
 		"typescript": "^4.9.3"
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.231.0",
 		"@prisma/client": "^4.7.1",
 		"express": "^4.18.2",
-		"morgan": "^1.10.0",
-		"nodemon": "^2.0.20"
+		"morgan": "^1.10.0"
 	}
 }
