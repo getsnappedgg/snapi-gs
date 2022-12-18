@@ -22,7 +22,6 @@ export const protect = asyncHandler(async (req: any, res: any, next: any) => {
 			});
 			next();
 		} catch (error) {
-			console.log(error);
 			res.status(401);
 			throw new Error("Not authorized");
 		}
@@ -31,14 +30,12 @@ export const protect = asyncHandler(async (req: any, res: any, next: any) => {
 
 export const isAdmin = asyncHandler(async (req: any, res: any, next: any) => {
 	try {
-		console.log(req.user);
 		if (req.user.role != "ADMIN") {
 			res.status(401);
 			throw new Error("Not authorized");
 		}
 		next();
 	} catch (error) {
-		console.log(error);
 		res.status(401);
 		throw new Error("Not authorized");
 	}

@@ -14,5 +14,5 @@ app.use(express.json());
 app.use("/api", router);
 
 app.listen(PORT, () =>
-	console.log(`Mixing it up on port ${PORT} at http://localhost:${PORT}`)
+	console.log(`Server running at http://localhost:${PORT}`)
 );

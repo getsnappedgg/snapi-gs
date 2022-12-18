@@ -7,7 +7,7 @@ const {
 	createDeck,
 	getDecks,
 	deleteDeck,
-} = require("../controllers/userController");
+} = require("../controllers/deckController");
 
-deckRouter.route("/").post(protect, createDeck).get(getDecks);
-deckRouter.delete("/:deckId", deleteDeck);
+// deckRouter.route("/").post(protect, createDeck).get(getDecks);
+// deckRouter.delete("/:deckId", deleteDeck);

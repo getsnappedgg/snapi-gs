@@ -18,10 +18,31 @@ model Card {
   description String
   pool        Pool
   flavorText  String
-  keyword     String
+  keyword     Keyword
+  // add field for release patch
 
   @@unique([name])
 }
+
+model Location {
+  id Int @id @default(autoincrement())
+  name String
+  description String
+  // effect LocationEffect
+}
+
+model LocationEffect{
+  locationId Int @unique
+  effectType EffectType
+  action String
+}
+
+model CardEffect{
+  cardId Int @unique
+  effectType EffectType
+  action String
+}
+
 
 model User {
   id       Int    @id @default(autoincrement())
@@ -39,6 +60,7 @@ model Deck {
   id     Int  @id @default(autoincrement())
   user   User @relation(fields: [userId], references: [id])
   userId Int
+  // cards Card[] (many to many relationship between decks and cards)
 }
 
 enum Role {
@@ -64,4 +86,10 @@ enum Pool {
   POOL_3
   POOL_4
   POOL_5
+}
+
+enum EffectType {
+  BUFF
+  NERF
+  SPECIAL
 }

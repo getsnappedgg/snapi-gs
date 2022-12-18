@@ -71,18 +71,17 @@ const loginUser = asyncHandler(async (req: any, res: any) => {
 
 const deleteUser = asyncHandler(async (req: any, res: any) => {
 	const { id } = req.params;
-	const user = await prisma.user.delete({
+	const deletedUser = await prisma.user.delete({
 		where: {
 			id,
 		},
 	});
-	res.json(user);
+	res.send(200).json(deletedUser);
 });
 
 
 const getMe = asyncHandler(async (req: any, res: any) => {
 	// res.send(await prisma.user.findUnique.findByToken(req.headers.authorization));
-	console.log(req.headers);
 	res.status(200).json(req.user);
 });
 

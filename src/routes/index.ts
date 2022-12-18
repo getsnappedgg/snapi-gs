@@ -1,7 +1,7 @@
 import express from "express";
-import { cardRouter } from "./card";
-import { deckRouter } from "./deck";
-import { userRouter } from "./user";
+import { cardRouter } from "./cards";
+import { deckRouter } from "./decks";
+import { userRouter } from "./users";
 export const router = express.Router();
 
 // const { protect } = require("../middleware/authMiddleware");
