@@ -20,7 +20,7 @@ model Card {
   flavorText  String
   keyword     String
 
-  @@unique([name, pool])
+  @@unique([name])
 }
 
 model User {
@@ -30,7 +30,7 @@ model User {
   passSalt String
   passHash String
   decks    Deck[]
-  role     Role     @default(USER)
+  role     Role   @default(USER)
 
   @@unique([email])
 }
@@ -40,10 +40,12 @@ model Deck {
   user   User @relation(fields: [userId], references: [id])
   userId Int
 }
+
 enum Role {
   USER
   ADMIN
 }
+
 enum Keyword {
   VANILLA
   REVEAL

@@ -5,12 +5,9 @@ import { prisma } from "../index";
 // @route   GET /api/cards
 // @access  Private
 const getCards = asyncHandler(async (req: any, res: any) => {
-	const cards = await prisma.card.findMany({
-		where: { pool: req.pool },
-	});
+	const cards = await prisma.card.findMany({});
 	res.json(cards);
 });
-
 
 // @desc    Create cards
 // @route   POST /api/cards/new
