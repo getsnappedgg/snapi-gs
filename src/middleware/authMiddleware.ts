@@ -1,8 +1,6 @@
-
-
 const jwt = require("jsonwebtoken");
 const asyncHandler = require("express-async-handler");
-const User = require("../models/userModel");
+import { prisma } from "../index";
 
 export const protect = asyncHandler(async (req: any, res: any, next: any) => {
 	let token;
@@ -19,8 +17,9 @@ export const protect = asyncHandler(async (req: any, res: any, next: any) => {
 			const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
 			// Get user from the token
-			req.user = await User.findById(decoded.id).select("-password");
-
+			req.user = await prisma.user.findUnique({
+				where: { id: decoded.id },
+			});
 			next();
 		} catch (error) {
 			console.log(error);
@@ -29,3 +28,27 @@ export const protect = asyncHandler(async (req: any, res: any, next: any) => {
 		}
 	}
 });
+
+export const isAdmin = asyncHandler(async (req: any, res: any, next: any) => {
+	try {
+		console.log(req.user);
+		if (req.user.role != "ADMIN") {
+			res.status(401);
+			throw new Error("Not authorized");
+		}
+		next();
+	} catch (error) {
+		console.log(error);
+		res.status(401);
+		throw new Error("Not authorized");
+	}
+});
+
+// export const isAdmin = (req: any, res: any, next: any) => {
+
+// };
+
+module.exports = {
+	protect,
+	isAdmin,
+};
