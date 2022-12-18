@@ -69,9 +69,25 @@ const loginUser = asyncHandler(async (req: any, res: any) => {
 	}
 });
 
+const deleteUser = asyncHandler(async (req: any, res: any) => {
+	const { id } = req.params;
+	const user = await prisma.user.delete({
+		where: {
+			id,
+		},
+	});
+	res.json(user);
+});
+
+
 const getMe = asyncHandler(async (req: any, res: any) => {
 	// res.send(await prisma.user.findUnique.findByToken(req.headers.authorization));
+	console.log(req.headers);
 	res.status(200).json(req.user);
+});
+
+const getDecks = asyncHandler(async (req: any, res: any) => {
+	res.send(200);
 });
 
 const generateToken = (id: number) => {
@@ -84,4 +100,6 @@ module.exports = {
 	registerUser,
 	loginUser,
 	getMe,
+	deleteUser,
+	getDecks,
 };
