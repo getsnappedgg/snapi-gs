@@ -11,45 +11,47 @@ datasource db {
 }
 
 model Card {
-  id          Int    @id @default(autoincrement())
+  id          Int     @id @default(autoincrement())
   name        String
   cost        Int
   power       Int
   description String
   pool        Pool
   flavorText  String
-  keyword     Keyword
+  keyword     String
+  s3Key       String?
+  s3Bucket    String?
   // add field for release patch
 
   @@unique([name])
 }
 
 model Location {
-  id Int @id @default(autoincrement())
-  name String
+  id          Int     @id @default(autoincrement())
+  name        String
   description String
+  s3Key       String?
+  s3Bucket    String?
   // effect LocationEffect
 }
 
-model LocationEffect{
-  locationId Int @unique
+model LocationEffect {
+  locationId Int        @unique
   effectType EffectType
-  action String
+  action     String
 }
 
-model CardEffect{
-  cardId Int @unique
+model CardEffect {
+  cardId     Int        @unique
   effectType EffectType
-  action String
+  action     String
 }
-
 
 model User {
   id       Int    @id @default(autoincrement())
   name     String
   email    String
-  passSalt Int
-  passHash String
+  password String
   decks    Deck[]
   role     Role   @default(USER)
 
@@ -66,6 +68,7 @@ model Deck {
 enum Role {
   USER
   ADMIN
+  MODERATOR
 }
 
 enum Keyword {
@@ -75,6 +78,7 @@ enum Keyword {
   ONGOING
   DISCARD
   MOVE
+  SPECIAL
 }
 
 enum Pool {
@@ -89,7 +93,10 @@ enum Pool {
 }
 
 enum EffectType {
-  BUFF
-  NERF
+  BUFF_CARD
+  NERF_CARD
+  BUFF_POWER
+  NERF_POWER
+  ADD_TO_LOCATION
   SPECIAL
 }

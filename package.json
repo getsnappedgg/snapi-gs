@@ -10,7 +10,8 @@
 		"prisma-format": "npx prisma format",
 		"migrate": "npm run prisma-format & npx prisma migrate dev --name",
 		"prisma": "npx prisma generate & npm run prisma-format",
-		"dev:server": "nodemon --watch './**/*.ts' --exec 'ts-node' src/index.ts"
+		"dev": "nodemon --watch './**/*.ts' --exec 'ts-node' src/index.ts",
+		"seed": "npx prisma migrate reset & ts-node src/prisma/seed.ts"
 	},
 	"repository": {
 		"type": "git",
@@ -37,9 +38,12 @@
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.231.0",
 		"@prisma/client": "^4.7.1",
+		"aws-sdk": "^2.1295.0",
 		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
 		"express": "^4.18.2",
 		"express-async-handler": "^1.2.0",
-		"morgan": "^1.10.0"
+		"morgan": "^1.10.0",
+		"request": "^2.88.2"
 	}
 }

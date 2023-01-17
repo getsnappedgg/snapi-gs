@@ -1,0 +1,2063 @@
+[
+	{
+		"card": "Abomination",
+		"cost": 5,
+		"power": 9,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Absorbing Man",
+		"cost": 4,
+		"power": 3,
+		"description": "On Reveal, If the last card you played has an On Reveal ability, this card copies it.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Adam Warlock",
+		"cost": 2,
+		"power": 0,
+		"description": "At the end of each turn, if you are winning this location, draw a card.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Aero",
+		"cost": 5,
+		"power": 6,
+		"description": "On Reveal: Move all enemy cards played this turn to this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Agatha Harkness",
+		"cost": 6,
+		"power": 13,
+		"description": "Agatha starts in your hand and plays your cards for you.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Agent 13",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Add a random card to your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Agent Coulson",
+		"cost": 3,
+		"power": 4,
+		"description": "On Reveal: Add a random 4-cost and 5-cost card to your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "America Chavez",
+		"cost": 6,
+		"power": 10,
+		"description": "You always draw this card on turn 6, and not before.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Angel",
+		"cost": 1,
+		"power": 2,
+		"description": "When one of your cards is destroyed, this flies out of your deck to replace it.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Angela",
+		"cost": 2,
+		"power": 1,
+		"description": "When you play a card here, +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Ant-Man",
+		"cost": 1,
+		"power": 1,
+		"description": "Ongoing: If you have 3 other cards here, +3 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Apocalypse",
+		"cost": 6,
+		"power": 8,
+		"description": "When you discard this from your hand, put it back with +4 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Armor",
+		"cost": 2,
+		"power": 3,
+		"description": "Ongoing: Cards at this location can’t be destroyed.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Arnim Zola",
+		"cost": 6,
+		"power": 0,
+		"description": "On Reveal: Destroy a random friendly card here; add copies of it to the other locations.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Baron Mordo",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Your opponent draws a card, increase its cost by 1",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Beast",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Return your other cards at this location to your hand. They cost 1 less.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Bishop",
+		"cost": 3,
+		"power": 2,
+		"description": "When you play a card, this gains +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Black Bolt",
+		"cost": 5,
+		"power": 7,
+		"description": "On Reveal: Your opponent must discard the lowest-Cost card in their hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Black Cat",
+		"cost": 3,
+		"power": 6,
+		"description": "If this is in your hand at the end of your turn, discard it.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Black Knight",
+		"cost": 1,
+		"power": 2,
+		"description": "When this is destroyed, draw a card.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Black Panther",
+		"cost": 4,
+		"power": 2,
+		"description": "On Reveal: Double this card’s Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Black Widow",
+		"cost": 2,
+		"power": 1,
+		"description": "On Reveal: Add a Widow’s Bite to your opponent’s hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Blade",
+		"cost": 1,
+		"power": 3,
+		"description": "On Reveal: Discard a card from your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Blink",
+		"cost": 3,
+		"power": 1,
+		"description": "You can move this each turn. When it moves, +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Blob",
+		"cost": 3,
+		"power": 4,
+		"description": "Ongoing: Nothing can move this to another location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Blue Marvel",
+		"cost": 6,
+		"power": 4,
+		"description": "Ongoing: Your other cards have +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Brood",
+		"cost": 3,
+		"power": 2,
+		"description": "On Reveal: Add 2 Broodlings to this location with the same Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Bucky Barnes",
+		"cost": 2,
+		"power": 1,
+		"description": "When this is destroyed, create the Winter Soldier in its place.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Bullseye",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: The next card you draw will be a 2-Cost card (if any are left).",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Cable",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Put the bottom card of your opponent’s deck into your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Captain America",
+		"cost": 3,
+		"power": 3,
+		"description": "Ongoing: Your other cards at this location have +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Captain Marvel",
+		"cost": 5,
+		"power": 6,
+		"description": "After the final turn, move to a location that wins you the game. (If possible)",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Carnage",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Destroy your other cards here. +2 Power for each destroyed.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Cerebro",
+		"cost": 3,
+		"power": 0,
+		"description": "Ongoing: Your highest power cards get +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Cloak",
+		"cost": 2,
+		"power": 4,
+		"description": "On Reveal: Next turn, both players can move cards to this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Colleen Wing",
+		"cost": 3,
+		"power": 5,
+		"description": "On Reveal: Discard the lowest-cost card from your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Colossus",
+		"cost": 2,
+		"power": 3,
+		"description": "Ongoing: Can’t be destroyed, moved, or have its power reduced.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Cosmo",
+		"cost": 3,
+		"power": 3,
+		"description": "Ongoing: On Reveal Abilities won’t happen at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Crossbones",
+		"cost": 4,
+		"power": 8,
+		"description": "You can only play this at locations where you are winning.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Crystal",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: If this is at the middle location, shuffle your hand into your deck and draw 3 cards.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Cyclops",
+		"cost": 3,
+		"power": 4,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Dagger",
+		"cost": 2,
+		"power": 1,
+		"description": "When this moves to a location, +2 Power for each card your opponent has there.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Daredevil",
+		"cost": 2,
+		"power": 2,
+		"description": "On turn 5, you get to see your opponent’s plays before you make your own.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Darkhawk",
+		"cost": 1,
+		"power": 3,
+		"description": "You can only play this at locations where you already have a card.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Dazzler",
+		"cost": 4,
+		"power": 4,
+		"description": "Ongoing: If you have 4 cards at each location, +8 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Deadpool",
+		"cost": 1,
+		"power": 1,
+		"description": "When this card is destroyed, return it to your hand with double the power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Death",
+		"cost": 9,
+		"power": 12,
+		"description": "Cost 1 less for each card destroyed this game.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Deathlok",
+		"cost": 3,
+		"power": 5,
+		"description": "On Reveal: Destroy your other cards at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Debrii",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Add a Rock to each other location, for both players.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Demon",
+		"cost": 1,
+		"power": 6,
+		"description": "A deal is a deal.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Destroyer",
+		"cost": 6,
+		"power": 14,
+		"description": "On Reveal: Destroy your other cards.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Devil Dinosaur",
+		"cost": 4,
+		"power": 0,
+		"description": "Ongoing: +2 Power for each card in your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Doctor Doom",
+		"cost": 6,
+		"power": 5,
+		"description": "On Reveal: Add a 5-Power Doombot to each other location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Doctor Octopus",
+		"cost": 5,
+		"power": 10,
+		"description": "On Reveal: Pull 4 random cards from your opponent’s hand to their side of this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Doctor Strange",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Move your highest power cards to this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Domino",
+		"cost": 2,
+		"power": 3,
+		"description": "You always draw this card on turn 2, and not before.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Doombot",
+		"cost": 5,
+		"power": 5,
+		"description": "No Ability.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Dracula",
+		"cost": 4,
+		"power": 0,
+		"description": "After the final turn, discard a card from your hand. This has its Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Drax",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Drone",
+		"cost": 1,
+		"power": 1,
+		"description": "No Ability.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Ebony Maw",
+		"cost": 1,
+		"power": 6,
+		"description": "You can’t play this after turn 3. Ongoing: You can’t play cards here.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Electro",
+		"cost": 3,
+		"power": 2,
+		"description": "On Reveal: +1 Max Energy. Ongoing: You can only play 1 card a turn.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Elektra",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Destroy a random enemy 1-Cost card at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Elsa Bloodstone",
+		"cost": 1,
+		"power": 1,
+		"description": "At the end of each turn, if you are winning this location, +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Enchantress",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: Remove the abilities from all Ongoing cards at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Falcon",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Return your 1-Cost cards to your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Forge",
+		"cost": 2,
+		"power": 1,
+		"description": "On Reveal: Give the next card you play +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Galactus",
+		"cost": 6,
+		"power": 3,
+		"description": "On Reveal: If this is your only card here, destroy all other locations.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Gambit",
+		"cost": 3,
+		"power": 1,
+		"description": "Discards a card from your hand. Destroy a random enemy card.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Gamora",
+		"cost": 5,
+		"power": 6,
+		"description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Ghost Rider",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Bring back one of your discarded cards (to this location).",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Ghost-Spider",
+		"cost": 5,
+		"power": 7,
+		"description": "Costs 0 if your opponent discarded a card from their hand this game.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Giganto",
+		"cost": 6,
+		"power": 14,
+		"description": "You can only play this at the left location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Goose",
+		"cost": 2,
+		"power": 2,
+		"description": "Ongoing: Nobody can play 4, 5, or 6-Cost cards at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Green Goblin",
+		"cost": 3,
+		"power": -3,
+		"description": "On Reveal: Your opponent gains control of this.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Groot",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: If your opponent played a card here this turn, +3 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Hawkeye",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: If you play a card here next turn, +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Hazmat",
+		"cost": 2,
+		"power": 1,
+		"description": "On Reveal: Give all other cards -1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Heimdall",
+		"cost": 6,
+		"power": 8,
+		"description": "On Reveal: Move your other cards one location to the left.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Hela",
+		"cost": 6,
+		"power": 6,
+		"description": "On Reveal: Play all cards you discarded from your hand to random locations.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Hellcow",
+		"cost": 2,
+		"power": 6,
+		"description": "On Reveal: Discard 2 cards from your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Hit Monkey",
+		"cost": 2,
+		"power": 0,
+		"description": "On Reveal: Gain +3 Power for each other card you played this turn.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Hobgoblin",
+		"cost": 5,
+		"power": -8,
+		"description": "On Reveal: Your opponent gains control of this.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Hulk",
+		"cost": 6,
+		"power": 11,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Hulk Buster",
+		"cost": 3,
+		"power": 4,
+		"description": "On Reveal: Merge this card with a random friendly card at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Human Torch",
+		"cost": 1,
+		"power": 2,
+		"description": "When this moves, double its Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Iceman",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Give a random card in your opponent’s hand +1 Cost. (Maximum 6).",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Invisible Woman",
+		"cost": 2,
+		"power": 2,
+		"description": "Ongoing: Cards you play here are not revealed until the game ends.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Iron Fist",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Move the next card you play one location to the left after it reveals.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Iron Man",
+		"cost": 5,
+		"power": 0,
+		"description": "Ongoing: Your total Power is doubled at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Ironheart",
+		"cost": 3,
+		"power": 0,
+		"description": "On Reveal: Give 3 other cards +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Jane Foster",
+		"cost": 5,
+		"power": 8,
+		"description": "On Reveal: Draw all cards that Cost 0 from your deck.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Jean Grey",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: The next card your opponent plays must be played here, if possible.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Jessica Jones",
+		"cost": 5,
+		"power": 8,
+		"description": "On Reveal: If you don’t play a card here next turn, +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Jubilee",
+		"cost": 4,
+		"power": 1,
+		"description": "On Reveal: Play the top card of your deck at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Juggernaut",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: If your opponent played cards here this turn, move them randomly.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Kang",
+		"cost": 5,
+		"power": 0,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Kazar",
+		"cost": 4,
+		"power": 5,
+		"description": "Ongoing: Your 1-Cost Cards have +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Killmonger",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Destroy ALL 1-Cost cards.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Kingpin",
+		"cost": 3,
+		"power": 4,
+		"description": "On Reveal: Next turn, destroy cards that move here.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Kitty Pryde",
+		"cost": 1,
+		"power": 2,
+		"description": "You can pull this back to your hand at any time.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Klaw",
+		"cost": 5,
+		"power": 4,
+		"description": "Ongoing: +5 Power at the location to the right.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Korg",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Shuffle a Rock into the opponent’s deck.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Kraven",
+		"cost": 2,
+		"power": 2,
+		"description": "When a card moves here, this gets +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Lady Deathstrike",
+		"cost": 6,
+		"power": 4,
+		"description": "On Reveal: Destroy the enemy card with the highest Power at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Lady Sif",
+		"cost": 2,
+		"power": 4,
+		"description": "On Reveal: Discard the highest-cost card from your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Leader",
+		"cost": 6,
+		"power": 4,
+		"description": "On Reveal: Copy all cards your opponent played this turn, but on your side.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Leech",
+		"cost": 5,
+		"power": 3,
+		"description": "On Reveal: Remove the abilities from all cards in your opponent’s hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Legion",
+		"cost": 5,
+		"power": 4,
+		"description": "On Reveal: Change the other locations into this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Lizard",
+		"cost": 2,
+		"power": 4,
+		"description": "Ongoing: -3 Power if your opponent has 4 cards here.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Lockjaw",
+		"cost": 3,
+		"power": 2,
+		"description": "When you play a card here, swap it with a card in your deck.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Luke Cage",
+		"cost": 2,
+		"power": 1,
+		"description": "Ongoing: Your cards can’t have their Power reduced.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Magik",
+		"cost": 5,
+		"power": 3,
+		"description": "On Reveal: Change this location to ‘Limbo’.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Magneto",
+		"cost": 6,
+		"power": 12,
+		"description": "On Reveal: Move all opposing 3 and 4-Cost cards to this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Makkari",
+		"cost": 0,
+		"power": 2,
+		"description": "When you draw this, place it at a random location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Mantis",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: If your opponent played a card here this turn, draw a card from their deck.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Maria Hill",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Add a random 1-Cost card to your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Maximus",
+		"cost": 3,
+		"power": 7,
+		"description": "On Reveal: Your opponent draws 2 cards.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Medusa",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: If this is at the middle location, +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Mephisto",
+		"cost": 6,
+		"power": 0,
+		"description": "If you win this game, double your winnings.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Miles Morales",
+		"cost": 4,
+		"power": 5,
+		"description": "If a card moved last turn, this costs 1.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Mirage",
+		"cost": 4,
+		"power": 5,
+		"description": "As you play this, disguise it as Mister Fantastic. After the final turn, reveal it.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Mister Fantastic",
+		"cost": 3,
+		"power": 2,
+		"description": "Ongoing: Adjacent locations have +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Mister Negative",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: Swap the Power and Cost of all cards in your deck.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Mister Sinister",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: Add a Sinister Clone to this location with the same Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Misty Knight",
+		"cost": 1,
+		"power": 2,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "MODOK",
+		"cost": 5,
+		"power": 8,
+		"description": "Ongoing: If both players have 4 cards at this location, + 6 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Mojo",
+		"cost": 2,
+		"power": 2,
+		"description": "Ongoing: If both players have 4 cards at this location, +6 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Monster",
+		"cost": 6,
+		"power": 9,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Moon Girl",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: Duplicate your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Moon Knight",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Discard a card from each player’s hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Morbius",
+		"cost": 2,
+		"power": 0,
+		"description": "Ongoing: +2 Power for each card you discarded from your hand this game.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Morph",
+		"cost": 3,
+		"power": 0,
+		"description": "On Reveal: Become a copy of a random card in your opponent’s hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Ms Marvel",
+		"cost": 3,
+		"power": 4,
+		"description": "Ongoing: If this is your only card here, adjacent locations have +5 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Multiple Man",
+		"cost": 2,
+		"power": 3,
+		"description": "When this moves, add a copy to the old location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Mysterio",
+		"cost": 2,
+		"power": 5,
+		"description": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Mystique",
+		"cost": 3,
+		"power": 0,
+		"description": "On Reveal: If the last card you played has an Ongoing ability, this card gains it.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Nakia",
+		"cost": 3,
+		"power": 1,
+		"description": "On Reveal: Give all cards in your hand +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Namor",
+		"cost": 4,
+		"power": 5,
+		"description": "Ongoing: +5 Power if this is your only card here.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Nebula",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: If your opponent played a card here this turn, x2 Power and put this in your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Negasonic Teenage Warhead",
+		"cost": 3,
+		"power": 2,
+		"description": "When any card is played here, destroy this card AND that card.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Nick Fury",
+		"cost": 5,
+		"power": 7,
+		"description": "On Reveal: Add 3 random 6-Cost cards to your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Nightcrawler",
+		"cost": 1,
+		"power": 2,
+		"description": "You can move this once.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Nova",
+		"cost": 1,
+		"power": 2,
+		"description": "When this is destroyed, give your other cards +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Odin",
+		"cost": 6,
+		"power": 8,
+		"description": "On Reveal: Activate the On Reveal abilities of your other cards at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Okoye",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Give every card in your deck +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Omega Red",
+		"cost": 4,
+		"power": 5,
+		"description": "Ongoing: If you’re ahead by 10 power here, +4 power to other locations.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Onslaught",
+		"cost": 6,
+		"power": 6,
+		"description": "Ongoing: Double your other Ongoing effects at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Orka",
+		"cost": 6,
+		"power": 9,
+		"description": "Ongoing: +5 Power if this is your only card here.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Patriot",
+		"cost": 3,
+		"power": 1,
+		"description": "Ongoing: Your cards with no abilities have +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Polaris",
+		"cost": 3,
+		"power": 5,
+		"description": "On Reveal: Move an opposing 1 or 2-Cost card to this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Professor X",
+		"cost": 5,
+		"power": 3,
+		"description": "Ongoing: Lockdown this location. (Cards can’t be added, removed, or destroyed.)",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Psylocke",
+		"cost": 2,
+		"power": 1,
+		"description": "On Reveal: Next turn, you get +1 Energy.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Quake",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: If this is at the middle location, swap the positions of each location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Quicksilver",
+		"cost": 1,
+		"power": 2,
+		"description": "Starts in your opening hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Quinjet",
+		"cost": 1,
+		"power": 2,
+		"description": "Ongoing: Cards that didn’t start in your deck cost 1 less.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Red Guardian",
+		"cost": 3,
+		"power": 6,
+		"description": "On Reveal: You must play a card here next turn.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Red Skull",
+		"cost": 5,
+		"power": 14,
+		"description": "Ongoing: Enemy cards at this location have +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Rescue",
+		"cost": 5,
+		"power": 5,
+		"description": "On Reveal: If you play a card here next turn, +5 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Rhino",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Ruin this location. (remove its ability)",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Rocket Raccoon",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: If your opponent played a card here this turn, +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Rockslide",
+		"cost": 4,
+		"power": 6,
+		"description": "On Reveal: Shuffle 2 useless Rocks into your opponent’s deck.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Rogue",
+		"cost": 3,
+		"power": 1,
+		"description": "On Reveal: Steal an Ongoing ability from a random enemy card at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Ronan the Accuser",
+		"cost": 4,
+		"power": 0,
+		"description": "Ongoing: +2 Power for each card in your opponent’s hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Sabretooth",
+		"cost": 3,
+		"power": 4,
+		"description": "When this is destroyed, return it to your hand. It costs 0.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Sandman",
+		"cost": 4,
+		"power": 1,
+		"description": "Ongoing: Players can only play 1 card a turn.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Scarlet Witch",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Replace this location with a random new one.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Scorpion",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Afflict cards in your opponent’s hand with -1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Sentinel",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Add another Sentinelto your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Sentry",
+		"cost": 4,
+		"power": 10,
+		"description": "On Reveal: Add The Void (7 Power) to your opponent’s side of this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Sera",
+		"cost": 5,
+		"power": 5,
+		"description": "Ongoing: Cards in your hand cost 1 less. (minimum 1)",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Shadow King",
+		"cost": 6,
+		"power": 4,
+		"description": "On Reveal: Destroy all other cards that have 2 or less Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Shang-Chi",
+		"cost": 4,
+		"power": 3,
+		"description": "On Reveal: Destroy all enemy cards at this location that have 9 or more Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "She-Hulk",
+		"cost": 4,
+		"power": 5,
+		"description": "Ongoing: If your opponent has a higher Cost card here, +3 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Shocker",
+		"cost": 2,
+		"power": 3,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Shuri",
+		"cost": 4,
+		"power": 2,
+		"description": "On Reveal: Double the Power of the next card you play.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Silk",
+		"cost": 4,
+		"power": 5,
+		"description": "When either player draws a card, set its cost to 6.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Silver Sable",
+		"cost": 2,
+		"power": 6,
+		"description": "You can only play this at a location where you have 6+ total Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Silver Samurai",
+		"cost": 1,
+		"power": 2,
+		"description": "When this is discarded from your hand, draw a card.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Silver Surfer",
+		"cost": 4,
+		"power": 0,
+		"description": "On Reveal: Double the power of ALL 6 Cost cards here.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Snowguard",
+		"cost": 1,
+		"power": 2,
+		"description": "If you haven’t played this by turn 3, transform into a random spirit animal.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Spectrum",
+		"cost": 6,
+		"power": 4,
+		"description": "On Reveal: Give your Ongoing cards +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Spider-Man",
+		"cost": 4,
+		"power": 2,
+		"description": "On Reveal: Your opponent can’t play cards at this location next turn",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Spider-Woman",
+		"cost": 4,
+		"power": 4,
+		"description": "On Reveal: Inflict all enemy cards here with -1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Squirrel Girl",
+		"cost": 1,
+		"power": 1,
+		"description": "On Reveal: Add a 1-Power Squirrel to each other location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Star Lord",
+		"cost": 2,
+		"power": 2,
+		"description": "On Reveal: If your opponent played a card here this turn, +3 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Storm",
+		"cost": 3,
+		"power": 2,
+		"description": "On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Strong Guy",
+		"cost": 2,
+		"power": 3,
+		"description": "Ongoing: If your hand is empty, +6 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Stryfe",
+		"cost": 3,
+		"power": 7,
+		"description": "If your opponent has 12+ Power here at the end of any turn, destroy this.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Sunspot",
+		"cost": 1,
+		"power": 1,
+		"description": "At the end of each turn, gain +1 Power for each unspent Energy.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Super Skrull",
+		"cost": 6,
+		"power": 6,
+		"description": "Ongoing: Has the Ongoing effects of all enemy cards.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Surtur",
+		"cost": 5,
+		"power": 0,
+		"description": "If you move the Human Torch to this location, +10 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Swarm",
+		"cost": 2,
+		"power": 3,
+		"description": "When this is discarded from your hand, add two 0-Cost copies to your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Sword Master",
+		"cost": 4,
+		"power": 7,
+		"description": "On Reveal: Discard a card from your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Taskmaster",
+		"cost": 5,
+		"power": 0,
+		"description": "On Reveal: Set this card’s Power equal to the Power of the last card you played.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Thanos",
+		"cost": 6,
+		"power": 8,
+		"description": "At the start of the game, shuffle the six Infinity Stones into your deck.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "The Collector",
+		"cost": 2,
+		"power": 0,
+		"description": "When a card enters your hand from anywhere (except your deck), +2 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "The Hood",
+		"cost": 1,
+		"power": -2,
+		"description": "On Reveal: Add a Demon to your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "The Infinaut",
+		"cost": 6,
+		"power": 20,
+		"description": "If you played a card last turn, you can’t play this.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "The Punisher",
+		"cost": 3,
+		"power": 2,
+		"description": "Ongoing: +1 Power for each opposing card at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "The Thing",
+		"cost": 4,
+		"power": 6,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "The Void",
+		"cost": 4,
+		"power": 7,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Thor",
+		"cost": 4,
+		"power": 6,
+		"description": "On Reveal: Shuffle Mjölnir into your deck.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Titania",
+		"cost": 1,
+		"power": 5,
+		"description": "When ANY card is played at this location, this card switches sides.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Typhoid Mary",
+		"cost": 4,
+		"power": 10,
+		"description": "Ongoing: Your other cards have -1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Uatu the Watcher",
+		"cost": 1,
+		"power": 2,
+		"description": "Once this is in your hand, you can see unrevealed locations.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Ultron",
+		"cost": 6,
+		"power": 7,
+		"description": "On Reveal: Create four 1-Power Drones at each adjacent location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Uncle Ben",
+		"cost": 1,
+		"power": 2,
+		"description": "When this card is destroyed, add Spider-Man to your hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Valkyrie",
+		"cost": 5,
+		"power": 3,
+		"description": "On Reveal: Set ALL cards at this location to 3 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Venom",
+		"cost": 3,
+		"power": 1,
+		"description": "On Reveal: Destroy your other cards at this location. Add their Power to this card.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Viper",
+		"cost": 2,
+		"power": 3,
+		"description": "On Reveal: Your opponent gains control of one of your other cards at this location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Vision",
+		"cost": 5,
+		"power": 7,
+		"description": "You can move this each turn.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Vulture",
+		"cost": 3,
+		"power": 3,
+		"description": "When this card moves, +5 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "War Machine",
+		"cost": 4,
+		"power": 5,
+		"description": "Ongoing: Your 1-Cost cards have +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Warpath",
+		"cost": 4,
+		"power": 5,
+		"description": "Ongoing: If any of your locations are empty, +4 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Wasp",
+		"cost": 0,
+		"power": 1,
+		"description": "No Ability",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Wave",
+		"cost": 3,
+		"power": 3,
+		"description": "On Reveal: Next turn, cards in both players’ hands cost 4.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "White Queen",
+		"cost": 4,
+		"power": 6,
+		"description": "On Reveal: Draw a copy of the highest cost card in your opponent’s hand.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "White Tiger",
+		"cost": 5,
+		"power": 1,
+		"description": "On Reveal: Add a 7-Power Tiger to another location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Widow’s Bite",
+		"cost": 0,
+		"power": 0,
+		"description": "While this is in your hand, cards in your deck cannot be drawn.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Winter Soldier",
+		"cost": 2,
+		"power": 6,
+		"description": "No Ability.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Wolfsbane",
+		"cost": 3,
+		"power": 1,
+		"description": "On Reveal: +2 Power for each other card you have here.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Wolverine",
+		"cost": 2,
+		"power": 3,
+		"description": "When this card is discarded or destroyed, play it at a random location.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Wong",
+		"cost": 4,
+		"power": 2,
+		"description": "Ongoing: Your On Reveal abilities at this location happen twice.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Yellowjacket",
+		"cost": 0,
+		"power": 2,
+		"description": "On Reveal: Afflict your other cards at this location with -1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Yondu",
+		"cost": 1,
+		"power": 2,
+		"description": "On Reveal: Remove the top card of your opponent’s deck.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Yo-Yo",
+		"cost": 1,
+		"power": 2,
+		"description": "When this card moves, move it back with +1 Power.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Zabu",
+		"cost": 5,
+		"power": 7,
+		"description": "If this is in your hand when you discard a card, put that card back and discard this instead.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	},
+	{
+		"card": "Zero",
+		"cost": 1,
+		"power": 3,
+		"description": "On Reveal: Remove the abilities on the next card you play.",
+		"pool": "",
+		"flavorText": "",
+		"keyword": ""
+	}
+]

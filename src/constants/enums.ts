@@ -1,0 +1,35 @@
+export enum Keyword {
+	VANILLA = "VANILLA",
+	REVEAL = "REVEAL",
+	DESTROY = "DESTROY",
+	ONGOING = "ONGOING",
+	DISCARD = "DISCARD",
+	MOVE = "MOVE",
+	SPECIAL = "SPECIAL",
+}
+
+export enum Role {
+	USER = "USER",
+	ADMIN = "ADMIN",
+	MODERATOR = "MODERATOR",
+}
+
+export enum Pool {
+	STARTER = "STARTER",
+	RECRUIT = "RECRUIT",
+	POOL_0 = "POOL_0",
+	POOL_1 = "POOL_1",
+	POOL_2 = "POOL_2",
+	POOL_3 = "POOL_3",
+	POOL_4 = "POOL_4",
+	POOL_5 = "POOL_5",
+}
+
+export enum EffectType {
+	BUFF_CARD = "BUFF_CARD",
+	NERF_CARD = "NERF_CARD",
+	BUFF_POWER = "BUFF_POWER",
+	NERF_POWER = "NERF_POWER",
+	ADD_TO_LOCATION = "ADD_TO_LOCATION",
+	SPECIAL = "SPECIAL",
+}

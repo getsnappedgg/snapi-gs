@@ -33,8 +33,7 @@ const registerUser = asyncHandler(async (req: any, res: any) => {
 		data: {
 			name,
 			email,
-			passSalt,
-			passHash: hashedPassword,
+			password: hashedPassword,
 		},
 	});
 
@@ -56,7 +55,7 @@ const loginUser = asyncHandler(async (req: any, res: any) => {
 	// Check for user email
 	const user = await prisma.user.findUnique({ where: { email } });
 
-	if (user && (await bcrypt.compare(password, user.passHash))) {
+	if (user && (await bcrypt.compare(password, user.password))) {
 		res.json({
 			_id: user.id,
 			name: user.name,
@@ -79,7 +78,6 @@ const deleteUser = asyncHandler(async (req: any, res: any) => {
 	res.send(200).json(deletedUser);
 });
 
-
 const getMe = asyncHandler(async (req: any, res: any) => {
 	// res.send(await prisma.user.findUnique.findByToken(req.headers.authorization));
 	res.status(200).json(req.user);
@@ -95,5 +93,5 @@ module.exports = {
 	registerUser,
 	loginUser,
 	getMe,
-	deleteUser
+	deleteUser,
 };

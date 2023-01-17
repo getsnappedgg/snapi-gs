@@ -1,12 +1,14 @@
+import { Pool, Keyword } from "../constants/enums";
+
 export type Card = {
 	id: number;
 	name: string;
 	cost: number;
 	power: number;
 	description: string;
-	pool: number;
+	pool: Pool;
 	flavorText: string;
-	keyword: string;
+	keyword: Keyword;
 };
 export const build = (data: any) => {
 	const { id, name, cost, power, description, pool, flavorText, keyword } =
