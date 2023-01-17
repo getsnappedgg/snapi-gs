@@ -31,6 +31,8 @@ CREATE TABLE "Location" (
     "id" SERIAL NOT NULL,
     "name" TEXT NOT NULL,
     "description" TEXT NOT NULL,
+    "s3Key" TEXT,
+    "s3Bucket" TEXT,
 
     CONSTRAINT "Location_pkey" PRIMARY KEY ("id")
 );
