@@ -5,13 +5,11 @@ fs.readFile("./src/prisma/cardList.json", "utf8", (err, data) => {
 	let cardList = JSON.parse(data);
 	cardList = cardList.map(card => {
 		const newCard = {
-			name: card.name,
-			cost: card.cost,
-			power: card.power,
-			description: card.description,
-			pool: "",
-			flavorText: "",
-			keyword: "",
+			name: card.Name,
+			cost: card.Cost,
+			power: card.Power,
+			description: card.Description,
+			source: card.Source,
 		};
 		console.log(newCard);
 		return newCard;

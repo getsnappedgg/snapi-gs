@@ -1,15 +1,38 @@
-const asyncHandler = require("express-async-handler");
+import asyncHandler from 'express-async-handler'
 import { prisma } from "../index";
-const { s3, params } = require("../lib/s3");
+import { s3 } from "../lib/s3";
 
 // @desc    Get cards
 // @route   GET /api/cards
 // @access  Private
 export const getCards = asyncHandler(async (req: any, res: any) => {
 	try {
-		console.log("im here");
 		const cards = await prisma.card.findMany({});
-		res.status(200).send(cards);
+		const cardsWithImages = cards.map(card => {
+			const compressedName = card.name
+				.replace(/\b[a-z]/g, char => char.toUpperCase())
+				.replace(/[^a-zA-Z0-9]/g, "")
+				.replace(/'/g, "");
+			let imageLink = "";
+			if (process.env.NODE_ENV == "production") {
+				imageLink =
+					"https://prod-getsnapped-images.s3.amazonaws.com/cards/" +
+					`${compressedName}` +
+					`.webp`;
+			} else {
+				imageLink =
+					"https://dev-getsnapped-images.s3.amazonaws.com/cards/" +
+					`${compressedName}` +
+					`.webp`;
+			}
+
+			const cardWithImage = {
+				...card,
+				imageLink,
+			};
+			return cardWithImage;
+		});
+		res.status(200).send(cardsWithImages);
 	} catch (error) {
 		console.error(error);
 	}
@@ -18,7 +41,7 @@ export const getCards = asyncHandler(async (req: any, res: any) => {
 export const getUniqueCard = asyncHandler(async (req: any, res: any) => {
 	try {
 		const { name } = req.params;
-		const card = await prisma.card.findUnique({
+		let card = await prisma.card.findUnique({
 			where: {
 				name,
 			},
@@ -34,9 +57,25 @@ export const getUniqueCard = asyncHandler(async (req: any, res: any) => {
 				Key: s3Key,
 			})
 			.promise();
-		console.log(card);
-		console.log(image);
-		res.status(200).json(card);
+
+		/* AbsorbingMan.webp */
+
+		const compressedName = card.name
+			.replace(/\b[a-z]/g, char => char.toUpperCase())
+			.replace(/[^a-zA-Z0-9]/g, "")
+			.replace(/'/g, "");
+
+		const imageLink =
+			"https://prod-getsnapped-images.s3.amazonaws.com/cards/" +
+			`${compressedName}` +
+			`.webp`;
+
+		const cardWithImage = {
+			...card,
+			imageLink,
+		};
+		console.log(cardWithImage);
+		res.status(200).json(cardWithImage);
 	} catch (error) {
 		console.error(error);
 	}
@@ -46,31 +85,19 @@ export const getUniqueCard = asyncHandler(async (req: any, res: any) => {
 // @route   POST /api/cards/new
 // @access  Private
 export const createCard = asyncHandler(async (req: any, res: any) => {
-	const {
-		name,
-		cost,
-		power,
-		description,
-		pool,
-		flavorText,
-		keyword,
-		s3Key,
-		s3Bucket,
-	} = req.body;
-	params.Key = name;
+	const { name, cost, power, description, source, s3Key, s3Bucket } = req.body;
 	const card = await prisma.card.create({
 		data: {
 			name,
 			cost,
 			power,
 			description,
-			pool,
-			flavorText,
-			keyword,
+			source,
 			s3Key,
 			s3Bucket,
 		},
 	});
+	// TODO: Use multer to upload an image to S3
 	res.json(card);
 });
 
@@ -78,8 +105,7 @@ export const createCard = asyncHandler(async (req: any, res: any) => {
 // @route   PUT /api/cards/update
 // @access  Private
 export const updateCard = asyncHandler(async (req: any, res: any) => {
-	const { id, name, cost, power, description, pool, flavorText, keyword } =
-		req.body;
+	const { id, name, cost, power, description, source } = req.body;
 	const updatedCard = await prisma.card.update({
 		where: {
 			id,
@@ -89,9 +115,7 @@ export const updateCard = asyncHandler(async (req: any, res: any) => {
 			cost,
 			power,
 			description,
-			pool,
-			flavorText,
-			keyword,
+			source,
 		},
 	});
 	res.json(updatedCard);
@@ -109,11 +133,3 @@ export const deleteCard = asyncHandler(async (req: any, res: any) => {
 	});
 	res.json(deletedCard);
 });
-
-// module.exports = {
-// 	getCards,
-// 	getUniqueCard,
-// 	updateCard,
-// 	createCard,
-// 	deleteCard,
-// };

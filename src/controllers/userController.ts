@@ -1,12 +1,12 @@
-const jwt = require("jsonwebtoken");
-const bcrypt = require("bcryptjs");
-const asyncHandler = require("express-async-handler");
+import bcrypt from "bcryptjs";
+import asyncHandler from "express-async-handler";
+import jwt, { Secret } from "jsonwebtoken";
 import { prisma } from "../index";
 
 // @desc    Register new user
 // @route   POST /api/users
 // @access  Public
-const registerUser = asyncHandler(async (req: any, res: any) => {
+export const registerUser = asyncHandler(async (req: any, res: any) => {
 	const { name, email, password } = req.body;
 	if (!name || !email || !password) {
 		res.status(400);
@@ -49,7 +49,7 @@ const registerUser = asyncHandler(async (req: any, res: any) => {
 		throw new Error("Invalid user data");
 	}
 });
-const loginUser = asyncHandler(async (req: any, res: any) => {
+export const loginUser = asyncHandler(async (req: any, res: any) => {
 	const { email, password } = req.body;
 
 	// Check for user email
@@ -68,7 +68,7 @@ const loginUser = asyncHandler(async (req: any, res: any) => {
 	}
 });
 
-const deleteUser = asyncHandler(async (req: any, res: any) => {
+export const deleteUser = asyncHandler(async (req: any, res: any) => {
 	const { id } = req.params;
 	const deletedUser = await prisma.user.delete({
 		where: {
@@ -78,20 +78,25 @@ const deleteUser = asyncHandler(async (req: any, res: any) => {
 	res.send(200).json(deletedUser);
 });
 
-const getMe = asyncHandler(async (req: any, res: any) => {
+export const getMe = asyncHandler(async (req: any, res: any) => {
 	// res.send(await prisma.user.findUnique.findByToken(req.headers.authorization));
-	res.status(200).json(req.user);
+	const data = {
+		name: req.user.name,
+		email: req.user.email,
+	};
+	res.status(200).json(data);
 });
 
-const generateToken = (id: number) => {
-	return jwt.sign({ id }, process.env.JWT_SECRET, {
+const generateToken = (id: string) => {
+
+	return jwt.sign({ id }, process.env.JWT_SECRET as Secret, {
 		expiresIn: "30d",
 	});
 };
 
-module.exports = {
-	registerUser,
-	loginUser,
-	getMe,
-	deleteUser,
-};
+// module.exports = {
+// 	registerUser,
+// 	loginUser,
+// 	getMe,
+// 	deleteUser,
+// };

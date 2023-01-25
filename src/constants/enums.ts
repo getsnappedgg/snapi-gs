@@ -6,23 +6,25 @@ export enum Keyword {
 	DISCARD = "DISCARD",
 	MOVE = "MOVE",
 	SPECIAL = "SPECIAL",
+    
 }
 
 export enum Role {
-	USER = "USER",
 	ADMIN = "ADMIN",
 	MODERATOR = "MODERATOR",
 }
 
-export enum Pool {
-	STARTER = "STARTER",
-	RECRUIT = "RECRUIT",
-	POOL_0 = "POOL_0",
-	POOL_1 = "POOL_1",
-	POOL_2 = "POOL_2",
-	POOL_3 = "POOL_3",
-	POOL_4 = "POOL_4",
-	POOL_5 = "POOL_5",
+export enum Source {
+	STARTER = "Starter Season",
+	RECRUIT = "Recruit Season",
+	POOL_0 = "Collection Pool 0",
+	POOL_1 = "Collection Pool 1",
+	POOL_2 = "Collection Pool 2",
+	POOL_3 = "Collection Pool 3",
+	POOL_4 = "Series 4",
+	POOL_5 = "Series 5",
+	SEASONPASS = "Season Pass",
+	SUMMON = "Summon",
 }
 
 export enum EffectType {
