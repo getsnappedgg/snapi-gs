@@ -3,19 +3,19 @@ import express from "express";
 import morgan from "morgan";
 import { createClient } from "redis";
 import { router } from "./routes";
-createClient
 
-const cors = require('cors')
-const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
-const DEFAULT_REDIS_EXPIRATION = process.env.DEFAULT_REDIS_EXPIRATION || 10800;
-
+const cors = require("cors");
 export const prisma = new PrismaClient();
-export const redis: any = createClient({ url: REDIS_URL });
-redis.on("error", (err: any) => console.error("Redis Client Error: ", err));
-redis.connect();
 
 const app = express();
 const PORT = process.env.PORT;
+
+// Redis
+const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
+const DEFAULT_REDIS_EXPIRATION = process.env.DEFAULT_REDIS_EXPIRATION || 10800;
+export const redis: any = createClient({ url: REDIS_URL });
+redis.on("error", (err: any) => console.error("Redis Client Error: ", err));
+redis.connect();
 
 app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: true }));
