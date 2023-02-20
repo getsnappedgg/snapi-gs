@@ -21,7 +21,7 @@ model Card {
   keywords    KeywordsOnCards[]
   s3Key       String
   s3Bucket    String
-  decks       CardsOnDecks[]
+  decks       Deck[]
   // add field for release patch
 
   @@unique([name])
@@ -79,20 +79,20 @@ model KeywordsOnCards {
 }
 
 model Deck {
-  id     Int            @id @default(autoincrement())
-  user   User           @relation(fields: [userId], references: [id])
-  userId String         @db.Uuid
-  cards  CardsOnDecks[]
+  id     Int    @id @default(autoincrement())
+  user   User   @relation(fields: [userId], references: [id])
+  userId String @db.Uuid
+  cards  Card[]
 }
 
-model CardsOnDecks {
-  card   Card @relation(fields: [cardId], references: [id])
-  cardId Int
-  deck   Deck @relation(fields: [deckId], references: [id])
-  deckId Int
+// model CardsOnDecks {
+//   card   Card @relation(fields: [cardId], references: [id])
+//   cardId Int
+//   deck   Deck @relation(fields: [deckId], references: [id])
+//   deckId Int
 
-  @@id([cardId, deckId])
-}
+//   @@id([cardId, deckId])
+// }
 
 enum Role {
   ADMIN
