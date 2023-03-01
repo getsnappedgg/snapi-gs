@@ -11,11 +11,11 @@ const app = express();
 const PORT = process.env.PORT;
 
 // Redis
-const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
-const DEFAULT_REDIS_EXPIRATION = process.env.DEFAULT_REDIS_EXPIRATION || 10800;
-export const redis: any = createClient({ url: REDIS_URL });
-redis.on("error", (err: any) => console.error("Redis Client Error: ", err));
-redis.connect();
+// const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
+// const DEFAULT_REDIS_EXPIRATION = process.env.DEFAULT_REDIS_EXPIRATION || 10800;
+// export const redis: any = createClient({ url: REDIS_URL });
+// redis.on("error", (err: any) => console.error("Redis Client Error: ", err));
+// redis.connect();
 
 app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: true }));

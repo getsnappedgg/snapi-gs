@@ -34,7 +34,7 @@ export const getSingleDeck = asyncHandler(
 	}
 );
 export const createDeck = asyncHandler(async (req: any, res: any) => {
-	let { cardIds, userId } = req.body;
+	let { name, cardIds, userId } = req.body;
 	try {
 		if (cardIds.length != 12) {
 			throw Error("Deck is not full");
@@ -44,6 +44,7 @@ export const createDeck = asyncHandler(async (req: any, res: any) => {
 		const deck = await prisma.deck.create({
 			data: {
 				userId,
+				name,
 				cards: {
 					connect: cardIds,
 				},
@@ -107,6 +108,7 @@ export const getDecksByCardId = asyncHandler(async (req: any, res: any) => {
 		decksByCardId.forEach(deck => {
 			const newDeck: any = {
 				id: deck.id,
+				name: deck.name,
 				userId: deck.userId,
 			};
 			const cardList = deck.cards.map(card => {
@@ -123,7 +125,6 @@ export const getDecksByCardId = asyncHandler(async (req: any, res: any) => {
 			newDeck.cardList = cardList;
 			decks.push(newDeck);
 		});
-		if (decks.length != 12) throw new Error("something went wrong");
 
 		res.status(200).send(decks);
 	} catch (error) {

@@ -80,6 +80,7 @@ model KeywordsOnCards {
 
 model Deck {
   id     Int    @id @default(autoincrement())
+  name   String
   user   User   @relation(fields: [userId], references: [id])
   userId String @db.Uuid
   cards  Card[]
