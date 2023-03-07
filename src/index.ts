@@ -16,7 +16,7 @@ const PORT = process.env.PORT;
 // export const redis: any = createClient({ url: REDIS_URL });
 // redis.on("error", (err: any) => console.error("Redis Client Error: ", err));
 // redis.connect();
-
+console.log("hello hello hello hello");
 app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
