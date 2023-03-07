@@ -11,7 +11,6 @@
 	},
 	"scripts": {
 		"build": "tsc",
-
 		"prisma-format": "npx prisma format",
 		"migrate": "npm run prisma-format && npx prisma migrate dev --name",
 		"prisma": "npx prisma generate & npm run prisma-format",
