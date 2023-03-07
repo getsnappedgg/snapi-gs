@@ -15,6 +15,7 @@
 		"migrate": "npm run prisma-format && npx prisma migrate dev --name",
 		"prisma": "npx prisma generate & npm run prisma-format",
 		"dev": "nodemon --watch './**/*.ts' --exec 'ts-node' src/index.ts",
+		"start": "nodemon dist/index.js",
 		"seed": "npx prisma migrate reset && ts-node src/prisma/seed.ts"
 	},
 	"repository": {
