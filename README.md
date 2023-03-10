@@ -9,6 +9,7 @@
 
   -npm run dev
 ```
+3. Go to the builder link OR run getsnapped on your local machine: https://getsnapped.netlify.app/builder
 
 ## Screenshots
 
