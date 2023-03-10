@@ -1,7 +1,8 @@
 # Snapi
+Snapi is an API for the website https://getsnapped.netlify.app. This is a third party deck builder tool for the game Marvel Snap (I do not own anything Marvel related).
 
-## Steps to run SNAPI along with getsnapped.gg
-1. Clone the repo to your local machine
+## Steps to run SNAPI along with getsnapped
+1. Clone the SNAPI and getsnapped-web repo to your local machine
 2. Run the following commands
 
 ```
