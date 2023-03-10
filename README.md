@@ -3,8 +3,8 @@
 ## Steps to run SNAPI along with getsnapped.gg
 1. Clone the repo to your local machine
 2. Run the following commands
-  npm install
-  npm run dev
+  -npm install
+  -npm run dev
 
 ## Screenshots
 
